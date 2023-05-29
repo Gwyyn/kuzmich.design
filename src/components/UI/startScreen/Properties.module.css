@@ -1,0 +1,69 @@
+.themeTextWrapper {
+    padding-left: 113px;
+    padding-top: 30px;
+}
+
+.firstLine {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 84px;
+    line-height: 114px;
+    color: #000000;
+}
+
+.secondLine {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 84px;
+    color: #000000;
+}
+
+.thirdLine {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.smallText {
+    width: 297px;
+    height: 75px;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.smallTextInnerWrapper {
+    padding: 7px;
+}
+
+.bigText {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 84px;
+    line-height: 114px;
+}
+
+.scrollToExplore {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 120px;
+    grid-column-gap: 1.3rem;
+    padding-top: 100px;
+}
+
+.scrollToExploreText{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+}

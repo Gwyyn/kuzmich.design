@@ -1,6 +1,6 @@
 .wrap{
     background: #D9D9D9;
-    border-radius: 50px;
+    border-radius: 20px;
     /*Width: 110px;*/
     /*Height: 30px;*/
     Width: 139px;
@@ -33,7 +33,7 @@
 
 .content{
     display: flex;
-    padding-left: 0.7rem;
+    padding-left: 0.9rem;
     grid-column-gap: 1.3rem;
     grid-row-gap: 1.3rem;
     text-decoration: none
@@ -45,15 +45,15 @@
     font-family: 'Noto Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 25px;
     color: #000000;
 }
 
 
 .icon {
-    Width: 25px;
-    Height: 25px;
+    Width: 36px;
+    Height: 36px;
     background: black;
     border-radius: 50%;
     align-items: center;

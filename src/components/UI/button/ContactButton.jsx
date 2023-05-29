@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './ContactButton.module.css'
-import Arrow from "./Arrow";
+import WhiteArrow from "../utilsItems/WhiteArrow";
 
 const ContactButton = ({...props}) => {
     return (
@@ -9,7 +9,7 @@ const ContactButton = ({...props}) => {
                 <a className={classes.content} href="mailto:kuzmich.design@gmail.com">
                     <div className={classes.legend}>Contact</div>
                     <div className={classes.icon}>
-                        <Arrow/>
+                        <WhiteArrow/>
                     </div>
                 </a>
             </div>
