@@ -10,7 +10,22 @@
     font-size: 84px;
     line-height: 114px;
     color: #000000;
+
+    /*transform: translate(0px, 120%);*/
+    /*opacity: 0;*/
+    /*transition: all 0.8s ease 0s;*/
 }
+/*.firstLine_active{*/
+/*    font-family: 'Noto Sans', sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 500;*/
+/*    font-size: 84px;*/
+/*    line-height: 114px;*/
+/*    color: #000000;*/
+
+/*    transform: translate(0px, 0px);*/
+/*    opacity: 1;*/
+/*}*/
 
 .secondLine {
     font-family: 'Noto Sans', sans-serif;
