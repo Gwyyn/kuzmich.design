@@ -29,7 +29,7 @@ const Works = () => {
 
                 <div className={cl.works_grid}>
                     <div className={cl.works_item}>
-                        <a href="" className={cl.works_item_inner}>
+                        <a href="https://www.behance.net/gallery/167786273/ON-MAIN-Website-concept" className={cl.works_item_inner}>
                             <img src={pic1} className={cl.works_item_img}/>
                             <div className={cl.works_item_title}>
                                 <span>on main</span>
@@ -38,7 +38,7 @@ const Works = () => {
                     </div>
 
                     <div className={cl.works_item}>
-                        <a href="" className={cl.works_item_inner}>
+                        <a href="https://dribbble.com/shots/21471400-Water-Bottles-Website-Concept" className={cl.works_item_inner}>
                             <img src={pic2} className={cl.works_item_img}/>
                             <div className={cl.works_item_title}>
                                 <span>avana</span>
@@ -47,7 +47,7 @@ const Works = () => {
                     </div>
 
                     <div className={cl.works_item}>
-                        <a href="" className={cl.works_item_inner}>
+                        <a href="https://dribbble.com/shots/21471638-CLOUD-DESIGN-AGENCY" className={cl.works_item_inner}>
                             <img src={pic3} className={cl.works_item_img}/>
                             <div className={cl.works_item_title}>
                                 <span>cloud</span>
@@ -56,7 +56,7 @@ const Works = () => {
                     </div>
 
                     <div className={cl.works_item}>
-                        <a href="" className={cl.works_item_inner}>
+                        <a href="https://www.behance.net/gallery/159373901/Smart-Home-Mobile-App" className={cl.works_item_inner}>
                             <img src={pic4} className={cl.works_item_img}/>
                             <div className={cl.works_item_title}>
                                 <span>smart home</span>
@@ -65,7 +65,7 @@ const Works = () => {
                     </div>
 
                     <div className={cl.works_item}>
-                        <a href="" className={cl.works_item_inner}>
+                        <a href="https://dribbble.com/shots/21151044-Delivery-Food-Mobile-App" className={cl.works_item_inner}>
                             <img src={pic5} className={cl.works_item_img}/>
                             <div className={cl.works_item_title}>
                                 <span>fresh food</span>
@@ -74,7 +74,7 @@ const Works = () => {
                     </div>
 
                     <div className={cl.works_item}>
-                        <a href="" className={cl.works_item_inner}>
+                        <a href="https://dribbble.com/shots/21141212-Plants-Mobile-App" className={cl.works_item_inner}>
                             <img src={pic6} className={cl.works_item_img}/>
                             <div className={cl.works_item_title}>
                                 <span>plants</span>

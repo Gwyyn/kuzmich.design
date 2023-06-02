@@ -1,0 +1,40 @@
+.longTitle {
+    width: 1195px;
+    height: 325px;
+    /*left: calc(50% - 1195px/2 - 0.5px);*/
+    /*top: 1700px;*/
+    margin: 0 auto;
+    padding-top: 150px;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 125.02%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.descrWrapper {
+    padding-top: 60px;
+    padding-left: 51%;
+    width: 565px;
+    /*height: 245px;*/
+}
+
+.shortTitle {
+
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 125.02%;
+    text-align: left;
+    text-transform: uppercase;
+    color: #000000;
+    padding-bottom: 10px;
+
+}
+
+.descr {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 126%;
+    color: #000000;
+}
