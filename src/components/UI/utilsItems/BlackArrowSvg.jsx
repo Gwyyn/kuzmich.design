@@ -1,6 +1,6 @@
 import React from 'react';
 
-const BlackArrow = () => {
+const BlackArrowSvg = () => {
     return (
         <svg width="18" height="18" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12.7764 15.5524C13.3274 15.5896 13.8042 15.1729 13.8413 14.6219L14.4463 5.64227C14.4834 5.09123 14.0668 4.61443 13.5158 4.57731C12.9647 4.54019 12.4879 4.95679 12.4508 5.50783L11.9131 13.4897L3.93115 12.952C3.38012 12.9149 2.90332 13.3315 2.8662 13.8825C2.82907 14.4335 3.24568 14.9103 3.79671 14.9475L12.7764 15.5524ZM0.246962 1.65798L12.0905 15.2127L13.5966 13.8967L1.75304 0.342023L0.246962 1.65798Z" fill="black"/>
@@ -8,4 +8,4 @@ const BlackArrow = () => {
     );
 };
 
-export default BlackArrow;
+export default BlackArrowSvg;
