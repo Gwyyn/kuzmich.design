@@ -1,0 +1,67 @@
+.servicesWrapper {
+    padding: 200px 120px 0 120px;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 350px;
+    padding-top: 60px;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #DDFF00;
+    border-radius: 10px;
+    width: 74px;
+    height: 28px;
+    margin-bottom: 20px;
+}
+
+.titleInContent {
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 71px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.leftPart {
+    width: 300px;
+}
+
+.rightPart {
+    padding-top: 20px;
+}
+
+.shortLine {
+    border: 1px solid #939393;
+    width: 599px;
+    margin-bottom: 15px;
+}
+
+.titleRightPart {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.titleWithButton_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}

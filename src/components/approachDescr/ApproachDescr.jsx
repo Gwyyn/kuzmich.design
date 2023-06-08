@@ -43,7 +43,7 @@ const ApproachDescr = () => {
                     the challenge
                 </motion.div>
                 <motion.div
-                    custom={3} variants={textAnimation}
+                    custom={4} variants={textAnimation}
                     className={cl.descr}
                 >
                     When designing websites, more unique challenges may arise and a series of design principles may
@@ -64,7 +64,7 @@ const ApproachDescr = () => {
                     the approach
                 </motion.div>
                 <motion.div
-                    custom={3} variants={textAnimation}
+                    custom={4} variants={textAnimation}
                     className={cl.descr}
                 >
                     The best-designed website is the one that satisfies the user's expectations, is user-friendly,

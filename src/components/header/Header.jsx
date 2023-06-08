@@ -1,6 +1,6 @@
 import React from 'react';
 import cl from './Header.module.css'
-import ContactButton from "../button/ContactButton";
+import ContactButton from "../UI/buttons/contactButton/ContactButton";
 
 const Header = () => {
     return (

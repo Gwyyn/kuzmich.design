@@ -1,13 +1,13 @@
 import React from 'react';
 import cl from './works.module.css'
 
-import CirclesSvg from "../utilsItems/CirclesSvg";
-import pic1 from "../utilsPicture/worksPictures/pic1.jpg"
-import pic2 from "../utilsPicture/worksPictures/pic2.jpg"
-import pic3 from "../utilsPicture/worksPictures/pic3.jpg"
-import pic4 from "../utilsPicture/worksPictures/pic4.jpg"
-import pic5 from "../utilsPicture/worksPictures/pic5.jpg"
-import pic6 from "../utilsPicture/worksPictures/pic6.jpg"
+import CirclesSvg from "../UI/utilsItems/CirclesSvg";
+import pic1 from "../UI/utilsPicture/worksPictures/pic1.jpg"
+import pic2 from "../UI/utilsPicture/worksPictures/pic2.jpg"
+import pic3 from "../UI/utilsPicture/worksPictures/pic3.jpg"
+import pic4 from "../UI/utilsPicture/worksPictures/pic4.jpg"
+import pic5 from "../UI/utilsPicture/worksPictures/pic5.jpg"
+import pic6 from "../UI/utilsPicture/worksPictures/pic6.jpg"
 
 const Works = () => {
     return (

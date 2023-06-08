@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './ContactButton.module.css'
-import WhiteArrowSvg from "../utilsItems/WhiteArrowSvg";
+import WhiteArrowSvg from "../../utilsItems/WhiteArrowSvg";
 
 const ContactButton = ({...props}) => {
     return (

@@ -1,8 +1,9 @@
 import React from 'react';
-import Header from "./components/UI/header/Header";
-import StartScreen from "./components/UI/startScreen/StartScreen";
-import Works from "./components/UI/works/Works";
-import ApproachDescr from "./components/UI/approachDescr/ApproachDescr";
+import Header from "./components/header/Header";
+import StartScreen from "./components/startScreen/StartScreen";
+import Works from "./components/works/Works";
+import ApproachDescr from "./components/approachDescr/ApproachDescr";
+import Services from "./components/services/Services";
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
             <StartScreen/>
             <Works/>
             <ApproachDescr/>
+            <Services/>
         </div>
     );
 };

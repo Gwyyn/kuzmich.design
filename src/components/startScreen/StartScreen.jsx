@@ -1,7 +1,7 @@
 import React from 'react';
 import ThemeText from "./ThemeText";
 import cl from './Properties.module.css'
-import BlackArrowSvg from "../utilsItems/BlackArrowSvg";
+import BlackArrowSvg from "../UI/utilsItems/BlackArrowSvg";
 import {motion} from "framer-motion";
 
 const StartScreen = () => {
