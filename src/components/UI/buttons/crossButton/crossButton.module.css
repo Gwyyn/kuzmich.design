@@ -1,6 +1,6 @@
 
 .buttonOff {
-    animation: ani1 1s forwards;
+    animation: ani1 0.5s forwards;
     opacity: 0;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .buttonOn {
-    animation: ani2 1s forwards;
+    animation: ani2 0.5s forwards;
     opacity: 0;
 }
 
