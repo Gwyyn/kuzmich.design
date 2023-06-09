@@ -6,9 +6,11 @@ const Websites = () => {
     return (
         <div className={cl.content}>
             <div className={cl.leftPart}>
-                <div className={cl.number}>1/3</div>
-                <div className={cl.titleInContent}>
-                    Websites
+                <div className={cl.leftPartTitle}>
+                    <div className={cl.number}>1/3</div>
+                    <div className={cl.titleInContent}>
+                        Websites
+                    </div>
                 </div>
             </div>
             <div className={cl.rightPart}>

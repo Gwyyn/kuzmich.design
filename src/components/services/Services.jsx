@@ -4,6 +4,7 @@ import CrossButton from "../UI/buttons/crossButton/crossButton";
 import Accordion from "../accordion/Accordion";
 import Websites from "./websites/Websites";
 import MobileApp from "./mobileApp/MobileApp";
+import Branding from "./branding/Branding";
 
 const Services = () => {
 
@@ -13,7 +14,11 @@ const Services = () => {
                 services
             </div>
             <Websites/>
+            <hr className={cl.shortLine}/>
             <MobileApp/>
+            <hr className={cl.shortLine}/>
+            <Branding/>
+            <hr className={cl.shortLine}/>
         </div>
     );
 };

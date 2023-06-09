@@ -39,9 +39,9 @@
     padding-top: 22px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between
-    /*max-width: 1200px;*/
-    /*margin: 0 auto;*/
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 .works_item_img::selection {
     color: #fff;
@@ -57,8 +57,6 @@
 
 .works_item {
     margin: 15px 0;
-    /*padding: 0 15px;*/
-    /*width: 33.33%;*/
 }
 
 .works_item_inner {
@@ -66,7 +64,6 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    /*cursor: pointer;*/
     overflow: hidden;
 }
 
