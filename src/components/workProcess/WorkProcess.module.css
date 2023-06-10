@@ -1,0 +1,66 @@
+.WorkProcessWrapper {
+    padding: 200px 120px 200px 120px;
+}
+
+.header {
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.values {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #DDFF00;
+    border-radius: 10px;
+    width: 96px;
+    height: 28px;
+}
+
+.description {
+    width: 540px;
+    /*height: 89px;*/
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 126%;
+    color: #000000;
+}
+
+.leftPart {
+
+}
+
+.rightPart {
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.firstLine {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    padding-bottom: 33px;
+}
+
+.secondLine {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 32px;
+}

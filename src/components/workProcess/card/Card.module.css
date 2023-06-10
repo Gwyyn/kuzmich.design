@@ -1,0 +1,44 @@
+.cardWrapper {
+    width: 275px;
+    height: 378px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.numberWrapper{
+    display: flex;
+    padding: 16px 0 0 16px;
+    align-items: baseline
+}
+
+.number {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 126%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.point{
+    width: 7px;
+    height: 7px;
+    background: #DDFF00;
+    border-radius: 50%;
+}
+
+.title {
+    padding: 6px 0 0 16px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #9E9E9E;
+}
+
+.description {
+    padding: 30px 9px 0 16px;
+    width: 250px;
+}

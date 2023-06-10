@@ -1,7 +1,5 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import cl from './Services.module.css';
-import CrossButton from "../UI/buttons/crossButton/crossButton";
-import Accordion from "../accordion/Accordion";
 import Websites from "./websites/Websites";
 import MobileApp from "./mobileApp/MobileApp";
 import Branding from "./branding/Branding";

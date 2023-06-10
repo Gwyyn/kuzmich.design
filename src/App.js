@@ -4,6 +4,7 @@ import StartScreen from "./components/startScreen/StartScreen";
 import Works from "./components/works/Works";
 import ApproachDescr from "./components/approachDescr/ApproachDescr";
 import Services from "./components/services/Services";
+import WorkProcess from "./components/workProcess/WorkProcess";
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
             <Works/>
             <ApproachDescr/>
             <Services/>
+            <WorkProcess/>
         </div>
     );
 };
