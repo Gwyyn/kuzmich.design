@@ -19,22 +19,22 @@ const WorkProcess = () => {
 
     const firstLineAnimation = {
         hidden: {
-            x: 1000,
+            y: 75,
             opacity: 0,
         },
         visible: custom => ({
-            x: 0,
+            y: 0,
             opacity: 1,
             transition: {delay: custom * 0.1, duration: 0.5},
         })
     }
     const secondLineAnimation = {
         hidden: {
-            x: -1000,
+            y: 75,
             opacity: 0,
         },
         visible: custom => ({
-            x: 0,
+            y: 0,
             opacity: 1,
             transition: {delay: custom * 0.1, duration: 0.5},
         })
@@ -73,56 +73,76 @@ const WorkProcess = () => {
                     </motion.div>
                 </div>
             </motion.div>
+
             <div className={cl.cards}>
                 <motion.div
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{amount: 0.3, once: true}}
+                    viewport={{amount: 0.2, once: true}}
                 >
-                    <motion.div
-                        custom={1} variants={firstLineAnimation}
-                        className={cl.firstLine}
-                    >
-                        <Card title="Briefing" number="01">
-                            We discuss your project's goals and objectives, ways to reach them. The result of this
-                            process
-                            is the establishment of deadlines and the cost of work.
-                        </Card>
-                        <Card title="UX Research" number="02">
-                            I research major competi-tors to gain insight into their products, sales.
-                            Then I create User flow, which helps navigate and track movement within the app or website
-                            and
-                            Wireframes, which show how the screens will look.
-                        </Card>
-                        <Card title="Design concept" number="03">
-                            I present to you a mood-board that combines various visual elements — like colors,
-                            typography
-                            and images. Presentation of one page design and making revisions.
-                        </Card>
-                    </motion.div>
+                    <div className={cl.firstLine}>
+                        <motion.div
+                            custom={2} variants={firstLineAnimation}
+                        >
+                            <Card title="Briefing" number="01">
+                                We discuss your project's goals and objectives, ways to reach them. The result of this
+                                process
+                                is the establishment of deadlines and the cost of work.
+                            </Card>
+                        </motion.div>
+                        <motion.div
+                            custom={3} variants={firstLineAnimation}
+                        >
+                            <Card title="UX Research" number="02">
+                                I research major competi-tors to gain insight into their products, sales.
+                                Then I create User flow, which helps navigate and track movement within the app or
+                                website
+                                and
+                                Wireframes, which show how the screens will look.
+                            </Card>
+                        </motion.div>
+                        <motion.div
+                            custom={5} variants={firstLineAnimation}
+                        >
+                            <Card title="Design concept" number="03">
+                                I present to you a mood-board that combines various visual elements — like colors,
+                                typography
+                                and images. Presentation of one page design and making revisions.
+                            </Card>
+                        </motion.div>
+                    </div>
 
                 </motion.div>
                 <motion.div
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{amount: 0.3, once: true}}
+                    viewport={{amount: 0.2, once: true}}
                 >
-                    <motion.div
-                        custom={1} variants={secondLineAnimation}
-                        className={cl.secondLine}>
-
-                        <Card title="design of all pages" number="04">
-                            I create a design concept for all pages and blocks in Figma.
-                        </Card>
-                        <Card title="Adaptive design" number="05">
-                            I creating adaptive design to popular resolutions. It ensures the best user experience
-                            according
-                            to whatever device the user is using to view the website.
-                        </Card>
-                        <Card title="transfer of all materials" number="06">
-                            At the last stage I make changes if necessary. Then transfer all the materials.
-                        </Card>
-                    </motion.div>
+                    <div className={cl.secondLine}>
+                        <motion.div
+                            custom={2} variants={secondLineAnimation}
+                        >
+                            <Card title="design of all pages" number="04">
+                                I create a design concept for all pages and blocks in Figma.
+                            </Card>
+                        </motion.div>
+                        <motion.div
+                            custom={3} variants={secondLineAnimation}
+                        >
+                            <Card title="Adaptive design" number="05">
+                                I create adaptive design to popular resolutions. It ensures the best user experience
+                                according
+                                to whatever device the user is using to view the website.
+                            </Card>
+                        </motion.div>
+                        <motion.div
+                            custom={4} variants={secondLineAnimation}
+                        >
+                            <Card title="transfer of all materials" number="06">
+                                At the last stage I make changes if necessary. Then transfer all the materials.
+                            </Card>
+                        </motion.div>
+                    </div>
                 </motion.div>
             </div>
         </div>
