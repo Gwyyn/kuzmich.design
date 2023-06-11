@@ -17,11 +17,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /*height: 350px;*/
-    /*padding-top: 60px;*/
 }
-.shortLine {
-    border: 1px solid #939393;
+.longLine {
+    /*border: 1px solid #939393;*/
     width: 100%;
     margin: 40px 0;
 }

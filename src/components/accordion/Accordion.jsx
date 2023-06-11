@@ -14,7 +14,7 @@ const Accordion = ({title, children, ...props}) => {
     }, [])
 
     return (
-        <div>
+        <div className={cl.accardionWrapper}>
             <hr className={cl.shortLine}/>
             <div className={cl.titleWithButton_container} onClick={() => setToggle(!toggle)}>
                 <div className={cl.titleRightPart}>

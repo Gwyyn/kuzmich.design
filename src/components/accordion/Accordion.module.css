@@ -1,5 +1,9 @@
+.accardionWrapper {
+    /*display: flex;*/
+}
+
 .shortLine {
-    border: 1px solid #939393;
+    /*border: 1px solid #939393;*/
     width: 599px;
     margin-bottom: 15px;
 }
@@ -28,7 +32,7 @@
     transition: opacity 0.4s ease-in-out,
     height 0.4s ease-in-out;
     padding-top: 10px;
-    font-weight: 400;
+    font-weight: 100;
     font-size: 24px;
     line-height: 33px;
     color: #000000;
@@ -38,7 +42,7 @@
 .descrText_animated {
     max-width: 600px;
     padding-top: 10px;
-    font-weight: 400;
+    font-weight: 100;
     font-size: 24px;
     line-height: 33px;
     color: #000000;

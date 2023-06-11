@@ -12,11 +12,11 @@ const Services = () => {
                 services
             </div>
             <Websites/>
-            <hr className={cl.shortLine}/>
+            <hr className={cl.longLine}/>
             <MobileApp/>
-            <hr className={cl.shortLine}/>
+            <hr className={cl.longLine}/>
             <Branding/>
-            <hr className={cl.shortLine}/>
+            <hr className={cl.longLine}/>
         </div>
     );
 };

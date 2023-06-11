@@ -58,9 +58,9 @@ const WorkProcess = () => {
                     </motion.div>
                     <motion.div
                         custom={2} variants={textAnimation}
-                        className={cl.values}
+                        className={cl.steps}
                     >
-                        values
+                        steps
                     </motion.div>
                 </div>
                 <div className={cl.rightPart}>
