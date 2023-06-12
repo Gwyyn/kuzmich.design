@@ -1,0 +1,76 @@
+.bottomWrapper {
+    background: #F8F8F8;
+    height: 630px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.leftPart {
+    padding-left: 120px;
+    width: 700px;
+}
+
+.spinnerWrapper {
+    width: 471px;
+    height: 471px;
+    /*bottom: -30%;*/
+    /*position: relative;*/
+}
+
+.rightPart {
+    padding-top: 106px;
+}
+
+.titleQuestion {
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 126%;
+    text-transform: uppercase;
+    color: #8B8B8B;
+}
+
+.titleExclamation {
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 126%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.description {
+    padding-top: 28px;
+    width: 530px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 126%;
+    color: #000000;
+}
+
+.contactLinksWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding-top: 68px;
+}
+
+.linkWithPoint {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.yellowPoint {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #DDFF00;
+}
+
+.contactLinks {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 126%;
+    color: #000000;
+}

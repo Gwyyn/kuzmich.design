@@ -5,6 +5,7 @@ import Works from "./components/works/Works";
 import ApproachDescr from "./components/approachDescr/ApproachDescr";
 import Services from "./components/services/Services";
 import WorkProcess from "./components/workProcess/WorkProcess";
+import Bottom from "./components/bottom/Bottom";
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
             <ApproachDescr/>
             <Services/>
             <WorkProcess/>
+            <Bottom/>
         </div>
     );
 };

@@ -1,0 +1,46 @@
+import React from 'react';
+
+const Spinner = () => {
+    return (
+        <svg  width="471" height="471" viewBox="0 0 471 471" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="185.549" cy="6.13902" rx="5.37204" ry="5.58692" transform="rotate(0.0296306 185.549 6.13902)" fill="black"/>
+            <circle cx="37.6576" cy="108.722" r="5.58692" transform="rotate(0.0296306 37.6576 108.722)" fill="black"/>
+            <circle cx="6.13939" cy="286.091" r="5.58692" transform="rotate(0.0296306 6.13939 286.091)" fill="black"/>
+            <circle cx="108.723" cy="433.499" r="5.58692" transform="rotate(0.0296306 108.723 433.499)" fill="black"/>
+            <circle cx="290.98" cy="465.02" r="5.58692" transform="rotate(0.0296306 290.98 465.02)" fill="black"/>
+            <ellipse cx="432.326" cy="362.433" rx="5.8104" ry="5.58692" transform="rotate(0.0296306 432.326 362.433)" fill="black"/>
+            <circle cx="256.131" cy="330.915" r="5.58692" transform="rotate(0.0296306 256.131 330.915)" fill="black"/>
+            <circle cx="182.81" cy="317.608" r="5.58692" transform="rotate(0.0296306 182.81 317.608)" fill="black"/>
+            <ellipse cx="139.766" cy="256.829" rx="5.8104" ry="5.58692" transform="rotate(0.0296306 139.766 256.829)" fill="black"/>
+            <path d="M257.451 330.788L155.566 183.729" stroke="black"/>
+            <circle cx="152.849" cy="183.507" r="5.58692" transform="rotate(0.0296306 152.849 183.507)" fill="black"/>
+            <ellipse cx="214.113" cy="140.24" rx="5.37204" ry="5.58692" transform="rotate(0.0296306 214.113 140.24)" fill="black"/>
+            <circle cx="288.348" cy="153.547" r="5.58692" transform="rotate(0.0296306 288.348 153.547)" fill="black"/>
+            <ellipse cx="362.22" cy="37.6566" rx="5.37204" ry="5.58692" transform="rotate(0.0296306 362.22 37.6566)" fill="black"/>
+            <circle cx="465.018" cy="185.764" r="5.58692" transform="rotate(0.0296306 465.018 185.764)" fill="black"/>
+            <ellipse cx="330.441" cy="215.025" rx="5.8104" ry="5.58692" transform="rotate(0.0296306 330.441 215.025)" fill="black"/>
+            <circle cx="317.609" cy="288.347" r="5.58692" transform="rotate(0.0296306 317.609 288.347)" fill="black"/>
+            <line x1="37.3728" y1="108.311" x2="185.479" y2="5.72797" stroke="black"/>
+            <line x1="289.996" y1="464.609" x2="436.598" y2="362.456" stroke="black"/>
+            <line x1="107.74" y1="433.088" x2="255.846" y2="330.504" stroke="black"/>
+            <line x1="321.861" y1="286.963" x2="469.968" y2="184.379" stroke="black"/>
+            <line x1="214.043" y1="139.829" x2="362.15" y2="37.246" stroke="black"/>
+            <line x1="4.45652" y1="288.473" x2="152.563" y2="185.89" stroke="black"/>
+            <path d="M35.5957 112.028L7.57223 283.811L105.166 432.549L291.611 467.564" stroke="black"/>
+            <path d="M38.432 111.234L137.405 254.365L316.867 290.074L289.542 461.16L185.211 317.242L8.85626 288.181" stroke="black"/>
+            <path d="M186.114 4.74263L154.944 184.206L332.311 217.82M332.311 217.82L363.831 38.3561L465.717 184.367L432.582 359.627L332.311 217.82Z" stroke="black"/>
+            <path d="M289.047 152.151L188.557 7.88623" stroke="black"/>
+            <path d="M319.704 288.697L217.818 143.035L185.255 316.213" stroke="black"/>
+            <path d="M317.959 286.95L289.849 154.97L464.386 182.499" stroke="black"/>
+            <path d="M110.469 432.452L140.939 256.48" stroke="black"/>
+            <path d="M258.226 331.615L430.358 360.686" stroke="black"/>
+            <path d="M185.415 6.48828L363.831 37.3086" stroke="black"/>
+            <path d="M140.683 258.063L290.187 153.037" stroke="black"/>
+            <path d="M183.856 319.006L332.313 215.026" stroke="black"/>
+            <path d="M215.953 140.118L290.523 152.223L328.875 215.51L316.861 291.194L255.207 330.311L182.944 316.223L139.46 256.047L152.511 182.072L215.953 140.118Z" stroke="black"/>
+        </svg>
+
+    );
+};
+
+export default Spinner;
