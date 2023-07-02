@@ -41,7 +41,7 @@ const ThemeText = () => {
                     className={cl.smallText
                     }>
                     <div className={cl.smallTextInnerWrapper}>
-                        just a design and strategy with an adaptive approach to problem solving
+                        just a design and strategy with an adaptive approach to problem solving.
                     </div>
                 </motion.div>
 

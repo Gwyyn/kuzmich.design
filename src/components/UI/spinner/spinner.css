@@ -1,0 +1,25 @@
+.spinner {
+    width: 471px;
+    height: 471px;
+    position: absolute;
+    bottom: -15%;
+    animation: spin 5s infinite linear;
+    will-change: transform;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.right {
+    animation-direction: normal;
+}
+
+.left {
+    animation-direction: reverse;
+}
