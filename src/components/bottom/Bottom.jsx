@@ -54,6 +54,9 @@ const Bottom = () => {
                         </a>
                     </div>
                 </div>
+                <div className={cl.rights}>
+                    © 2023 kuzmich.design.  All right reserved.
+                </div>
             </div>
         </div>
     );
