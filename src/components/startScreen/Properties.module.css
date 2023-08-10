@@ -117,4 +117,24 @@
         padding-left: 20px;
     }
 }
+@media (max-width: 419px) {
+
+    .firstLine {
+        font-size: 56px;
+    }
+
+    .secondLine {
+        font-size: 56px;
+    }
+    .bigText {
+        font-size: 56px;
+    }
+
+    .thirdLine {
+        font-size: 56px;
+    }
+    .smallText {
+        width: 300px
+    }
+}
 

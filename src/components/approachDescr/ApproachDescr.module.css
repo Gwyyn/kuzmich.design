@@ -117,12 +117,22 @@
     }
 }
 
+@media (max-width: 410px) {
+    .descrWrapper {
+        width: 350px;
+    }
+    .descr {
+        width: 350px;
+    }
+}
 
-/*@media (max-width: 768px) {*/
-/*    .descrWrapper {*/
-/*        padding-left: 0;*/
-/*    }*/
-/*    .wrapperBlock {*/
-/*        align-items: center;*/
-/*    }*/
-/*}*/
+@media (max-width: 366px) {
+    .descrWrapper {
+        width: 300px;
+    }
+    .descr {
+        width: 300px;
+    }
+
+}
+

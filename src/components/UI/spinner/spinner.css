@@ -52,6 +52,32 @@
         height: 220px;
     }
 }
+@media (max-width: 442px) {
+    .spinner {
+        width: 200px;
+        height: 200px;
+    }
+}
+@media (max-width: 414px) {
+    .spinner {
+        width: 175px;
+        height: 175px;
+        bottom: -10%;
+    }
+}
+@media (max-width: 394px) {
+    .spinner {
+        width: 150px;
+        height: 150px;
+    }
+}
+@media (max-width: 363px) {
+    .spinner {
+        width: 125px;
+        height: 125px;
+        bottom: -5%;
+    }
+}
 
 /*@media (max-width: 559px) {*/
 /*    .spinner {*/

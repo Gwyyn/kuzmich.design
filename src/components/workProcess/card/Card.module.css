@@ -56,6 +56,19 @@
     }
 }
 
+@media (max-width: 468px) {
+    .cardWrapper {
+        width: 360px;
+        height: 340px;
+    }
+}
+@media (max-width: 406px) {
+    .cardWrapper {
+        width: 300px;
+        height: 340px;
+    }
+}
+
 /*@media (max-width: 768px) {*/
 /*    .cardWrapper {*/
 /*        width: 314px;*/
