@@ -40,6 +40,25 @@
 
 .description {
     padding: 30px 9px 0 16px;
-    width: 250px;
     font-weight: 100;
 }
+
+@media (max-width: 1000px) {
+    .cardWrapper {
+        width: 215px;
+        height: 328px;
+    }
+}
+@media (max-width: 480px) {
+    .cardWrapper {
+        width: 420px;
+        height: 340px;
+    }
+}
+
+/*@media (max-width: 768px) {*/
+/*    .cardWrapper {*/
+/*        width: 314px;*/
+/*        height: 430px;*/
+/*    }*/
+/*}*/

@@ -29,29 +29,33 @@ const Bottom = () => {
                     <BigContactButton/>
                 </div>
                 <div className={cl.contactLinksWrapper}>
-                    <div className={cl.linkWithPoint}>
-                        <div className={cl.yellowPoint}></div>
-                        <a href="https://www.linkedin.com/in/victoria-kuzmich-6a8505223/" style={{textDecoration: "none"}}>
-                            <div className={cl.contactLinks}>LinkedIn</div>
-                        </a>
+                    <div className={cl.firstRow}>
+                        <div className={cl.linkWithPoint}>
+                            <div className={cl.yellowPoint}></div>
+                            <a href="https://www.linkedin.com/in/victoria-kuzmich-6a8505223/" style={{textDecoration: "none"}}>
+                                <div className={cl.contactLinks}>LinkedIn</div>
+                            </a>
+                        </div>
+                        <div className={cl.linkWithPoint}>
+                            <div className={cl.yellowPoint}></div>
+                            <a href="https://t.me/vikakuzmich" style={{textDecoration: "none"}}>
+                                <div className={cl.contactLinks}>Telegram</div>
+                            </a>
+                        </div>
                     </div>
-                    <div className={cl.linkWithPoint}>
-                        <div className={cl.yellowPoint}></div>
-                        <a href="https://t.me/vikakuzmich" style={{textDecoration: "none"}}>
-                            <div className={cl.contactLinks}>Telegram</div>
-                        </a>
-                    </div>
-                    <div className={cl.linkWithPoint}>
-                        <div className={cl.yellowPoint}></div>
-                        <a href="https://www.behance.net/victoriakuzmich" style={{textDecoration: "none"}}>
-                            <div className={cl.contactLinks}>Behance</div>
-                        </a>
-                    </div>
-                    <div className={cl.linkWithPoint}>
-                        <div className={cl.yellowPoint}></div>
-                        <a href="https://dribbble.com/Victoria_Kuzmich0" style={{textDecoration: "none"}}>
-                            <div className={cl.contactLinks}>Dribble</div>
-                        </a>
+                    <div className={cl.secondRow}>
+                        <div className={cl.linkWithPoint}>
+                            <div className={cl.yellowPoint}></div>
+                            <a href="https://www.behance.net/victoriakuzmich" style={{textDecoration: "none"}}>
+                                <div className={cl.contactLinks}>Behance</div>
+                            </a>
+                        </div>
+                        <div className={cl.linkWithPoint}>
+                            <div className={cl.yellowPoint}></div>
+                            <a href="https://dribbble.com/Victoria_Kuzmich0" style={{textDecoration: "none"}}>
+                                <div className={cl.contactLinks}>Dribble</div>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className={cl.rights}>

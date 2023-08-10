@@ -61,6 +61,18 @@
     padding-top: 68px;
 }
 
+.firstRow {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.secondRow {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
 .linkWithPoint {
     display: flex;
     flex-direction: row;
@@ -84,9 +96,92 @@
 
 .rights {
     position: relative;
-    bottom: -15%;
+    bottom: -9%;
     font-size: 16px;
     line-height: 20px;
     font-weight: 400;
     text-transform: uppercase;
 }
+
+@media (max-width: 1125px) {
+    .leftPart {
+        padding-left: 60px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .contactLinksWrapper {
+        flex-direction: column;
+    }
+
+    .description {
+        width: 100%;
+        font-size: 20px;
+
+    }
+}
+
+@media (max-width: 900px) {
+    .rightPart {
+        padding-top: 60px;
+    }
+
+    .titleQuestion {
+        font-size: 42px;
+    }
+
+    .titleExclamation {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 892px) {
+
+    .contactLinksWrapper {
+        padding-top: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .titleQuestion {
+        font-size: 32px;
+    }
+
+    .titleExclamation {
+        font-size: 32px;
+    }
+
+    .rights {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 559px) {
+
+    .titleQuestion {
+        font-size: 32px;
+    }
+
+    .titleExclamation {
+        font-size: 32px;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+    .contactLinks {
+        font-size: 18px;
+    }
+
+    .rights {
+        font-size: 11px;
+    }
+    .leftPart {
+        padding-left: 20px;
+    }
+
+}
+
+

@@ -55,9 +55,66 @@
     padding-top: 100px;
 }
 
-.scrollToExploreText{
+.scrollToExploreText {
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
 
 }
+
+@media (max-width: 1125px) {
+    .themeTextWrapper {
+        padding-left: 60px;
+    }
+
+    .scrollToExplore {
+        padding-left: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .thirdLine {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .smallText {
+        width: 500px;
+    }
+}
+
+@media (max-width: 568px) {
+    .firstLine {
+        font-size: 68px;
+    }
+
+    .secondLine {
+        font-size: 68px;
+    }
+    .bigText {
+        font-size: 68px;
+    }
+
+    .thirdLine {
+        font-size: 68px;
+    }
+
+    .smallText {
+        width: 400px
+    }
+
+}
+
+@media (max-width: 568px) {
+    .themeTextWrapper {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .scrollToExplore {
+        padding-left: 20px;
+    }
+}
+

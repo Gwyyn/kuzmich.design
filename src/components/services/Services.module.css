@@ -56,3 +56,35 @@
 .rightPart {
     padding-top: 20px;
 }
+
+@media (max-width: 1125px) {
+    .servicesWrapper {
+        padding: 200px 50px 0 50px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+    .longLine {
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .servicesWrapper {
+        padding: 200px 20px 0;
+    }
+    .title {
+        font-size: 28px;
+    }
+    .titleInContent {
+        font-size: 36px;
+    }
+    .number {
+        margin: 30px 0 5px 0;
+    }
+}

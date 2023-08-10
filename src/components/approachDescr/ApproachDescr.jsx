@@ -18,16 +18,23 @@ const ApproachDescr = () => {
 
 
     return (
-        <div>
+        <div
+            className={cl.wrapperBlock}
+        >
             <motion.div
                 initial="hidden"
                 whileInView="visible"
                 viewport={{amount: 0.5, once: true}}
-                className={cl.longTitle}
+                className={cl.longTitleWrapper}
                 custom={1} variants={textAnimation}
             >
-                I believe in working collaboratively and working closely with my clients to ensure that each project
-                meets their unique needs and surpasses their expectations
+                <div
+                    className={cl.longTitle}
+                >
+                    I believe in working collaboratively and working closely with my clients to ensure that each project
+                    meets their unique needs and surpasses their expectations
+                </div>
+
             </motion.div>
 
             <motion.div

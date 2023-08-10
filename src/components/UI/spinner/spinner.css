@@ -5,6 +5,7 @@
     bottom: -15%;
     animation: spin 5s infinite linear;
     will-change: transform;
+    left: 2%;
 }
 
 @keyframes spin {
@@ -23,3 +24,38 @@
 .left {
     animation-direction: reverse;
 }
+
+@media (max-width: 1080px) {
+    .spinner {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .spinner {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
+@media (max-width: 643px) {
+    .spinner {
+        width: 250px;
+        height: 250px;
+    }
+}
+@media (max-width: 480px) {
+    .spinner {
+        width: 220px;
+        height: 220px;
+    }
+}
+
+/*@media (max-width: 559px) {*/
+/*    .spinner {*/
+/*        width: 200px;*/
+/*        height: 200px;*/
+/*    }*/
+/*}*/

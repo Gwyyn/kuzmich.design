@@ -9,6 +9,7 @@
     padding: 40px 120px;
 }
 
+
 .headerUp{
     display: flex;
     flex-direction: row;
@@ -20,4 +21,16 @@
 }
 .hr{
     border: 1px solid #000000;
+}
+
+@media (max-width: 1132px) {
+    .wrap {
+        padding: 40px 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrap {
+        padding: 40px 20px;
+    }
 }

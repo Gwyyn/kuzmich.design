@@ -51,3 +51,30 @@
     transition: height 0.3s ease-in-out,
     opacity 0.3s 0.1s ease-in-out;
 }
+
+@media (max-width: 1000px) {
+    .accardionWrapper {
+        width: 400px;
+    }
+    .shortLine {
+        width: 400px;
+    }
+}
+@media (max-width: 768px) {
+    .accardionWrapper {
+        width: 100%;
+    }
+    .shortLine {
+        width: 100%;
+    }
+    .descrText_animated {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .descrText_animated {
+        font-size: 16px;
+    }
+}
