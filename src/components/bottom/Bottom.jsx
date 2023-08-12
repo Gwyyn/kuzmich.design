@@ -25,7 +25,7 @@ const Bottom = () => {
                 <div className={cl.description}>
                     Every new project starts with a conversation so let’s have coffee and talk.
                 </div>
-                <div style={{paddingTop: 54}}>
+                <div className={cl.bigContactButtonInBottom}>
                     <BigContactButton/>
                 </div>
                 <div className={cl.contactLinksWrapper}>

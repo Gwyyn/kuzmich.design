@@ -64,13 +64,13 @@
 .firstRow {
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    gap: 11px;
 }
 
 .secondRow {
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    gap: 11px;
 }
 
 .linkWithPoint {
@@ -85,6 +85,10 @@
     height: 10px;
     border-radius: 50%;
     background: #DDFF00;
+}
+
+.bigContactButtonInBottom {
+    padding-top: 54px
 }
 
 .contactLinks {
@@ -178,10 +182,30 @@
     .rights {
         font-size: 11px;
     }
+
     .leftPart {
         padding-left: 20px;
     }
 
+}
+
+@media (max-width: 480px) {
+    .bottomWrapper {
+        flex-direction: row-reverse;
+        padding: 0 0 0 20px;
+    }
+
+    .leftPart {
+        padding-left: 5px;
+    }
+
+    .description {
+        position: absolute;
+        width: 290px;
+    }
+    .bigContactButtonInBottom {
+        padding-top: 120px;
+    }
 }
 
 

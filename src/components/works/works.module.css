@@ -149,3 +149,10 @@
         font-size: 18px;
     }
 }
+
+@media (max-width: 480px) {
+    .worksDescrHeader{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
