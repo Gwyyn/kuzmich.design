@@ -50,6 +50,7 @@
     .spinner {
         width: 220px;
         height: 220px;
+        bottom: -10%;
     }
 }
 @media (max-width: 442px) {

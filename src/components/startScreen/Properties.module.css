@@ -121,6 +121,7 @@
 
     .firstLine {
         font-size: 56px;
+        line-height: 80px;
     }
 
     .secondLine {
@@ -128,6 +129,7 @@
     }
     .bigText {
         font-size: 56px;
+        line-height: 80px;
     }
 
     .thirdLine {

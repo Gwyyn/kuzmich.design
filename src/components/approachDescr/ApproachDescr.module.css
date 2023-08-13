@@ -15,7 +15,7 @@
     /*left: calc(50% - 1195px/2 - 0.5px);*/
     /*top: 1700px;*/
     /*margin: 0 auto;*/
-    padding-top: 150px;
+    padding: 150px 60px 0;
     font-weight: 400;
     font-size: 52px;
     line-height: 125.02%;
@@ -98,6 +98,11 @@
         text-align: center;
     }
 
+}
+@media (max-width: 568px) {
+    .longTitle {
+        padding: 150px 30px 0;
+    }
 }
 
 @media (max-width: 480px) {

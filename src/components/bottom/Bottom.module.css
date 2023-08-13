@@ -12,11 +12,6 @@
 }
 
 .spinnerWrapper {
-    /*width: 471px;*/
-    /*height: 471px;*/
-    /*bottom: -30%;*/
-    /*position: relative;*/
-
     width: 100%;
     height: 471px;
     overflow: hidden;
@@ -160,8 +155,17 @@
         font-size: 13px;
     }
 }
+@media (max-width: 704px) {
+    .rights {
+        width: 180px;
+    }
+}
 
 @media (max-width: 559px) {
+
+    .rights {
+        width: 150px;
+    }
 
     .titleQuestion {
         font-size: 32px;
@@ -193,7 +197,12 @@
     .bottomWrapper {
         flex-direction: row-reverse;
         padding: 0 0 0 20px;
+        height: 477px;
     }
+    .spinnerWrapper {
+        bottom: -1%;
+    }
+
 
     .leftPart {
         padding-left: 5px;
@@ -202,10 +211,19 @@
     .description {
         position: absolute;
         width: 290px;
+        padding-top: 100px;
     }
     .bigContactButtonInBottom {
-        padding-top: 120px;
+        padding-top: 180px;
     }
+    .titleQuestion {
+        position: absolute;
+    }
+    .titleExclamation {
+        position: absolute;
+        padding-top: 50px;
+    }
+
 }
 
 
